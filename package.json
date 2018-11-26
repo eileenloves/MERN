@@ -1,16 +1,22 @@
 {
   "name": "server",
   "version": "1.0.0",
-  "description": "MERN node-express server",
+  "description": "",
   "main": "index.js",
+  "engines": {
+    "node": "10.13.0",
+    "npm": "6.4.1"
+  },
   "scripts": {
     "dev": "nodemon index.js",
     "start": "node index.js"
   },
   "keywords": [],
-  "author": "Da Eun Kim",
+  "author": "",
   "license": "ISC",
   "dependencies": {
+    "config": "^3.0.0",
+    "express": "^4.16.4",
     "passport": "^0.4.0",
     "passport-google-oauth20": "^1.0.0"
   }
