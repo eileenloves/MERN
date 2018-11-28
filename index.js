@@ -31,7 +31,7 @@ app.use(passport.session()); // req.user == <USER INSTANCE>
 // Routes
 app.use(home);
 app.use('/auth/google',auth);
-app.use('/users',users);
+app.use('/api/users',users);
 
 
 // passport.js로 분리
